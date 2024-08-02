@@ -1,4 +1,10 @@
 def count_occurrences(paragraph: str, word: str):
+    """
+    Count the number of occurrences of a word in a paragraph
+    :param paragraph:
+    :param word:
+    :return:
+    """
     word_length = len(word)
     count = 0
     index = 0
