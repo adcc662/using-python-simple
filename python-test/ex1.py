@@ -1,4 +1,4 @@
-def count_occurrences(paragraph, word):
+def count_occurrences(paragraph: str, word: str):
     word_length = len(word)
     count = 0
     index = 0
@@ -25,6 +25,6 @@ logística, pero, de hecho, ha ocurrido algo muy diferente. El sector de la log�
 introducido las innovaciones digitales.
 """
 
-word_to_find = "logística"
-result = count_occurrences(paragraph, word_to_find)
+word_to_find: str = "logística"
+result: int = count_occurrences(paragraph, word_to_find)
 print(f'{result} ocurrencias encontradas')
