@@ -23,7 +23,7 @@ This repository was created to show exercises solved to Backend python.
 3. If you have docker installed on your machine, you can run the following command:
    ```sh
     docker build -t python-test .
-    docker run -it python-test
+    docker run --rm python-test
    ```
    
    and you will see the result of the exercises.
